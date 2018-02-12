@@ -9,5 +9,5 @@
 
 [build]
   base    = ""
-  publish = ""
-  command = "./mvnw spring-boot:run"
+  publish = "target/site"
+  command = "./mvnw site spring-boot:run"
