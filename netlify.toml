@@ -4,8 +4,10 @@
 # “command” is your build command,
 # “base” is directory to change to before starting build. if you set base:
 #    that is where we will look for package.json/.nvmrc/etc not repo root!
+# try below command if you get error while running ./mvnw clean
+# mvn -N io.takari:maven:wrapper
 
 [build]
   base    = ""
-  publish = "target/site"
-  command = "./mvnw clean site"
+  publish = ""
+  command = "./mvnw spring-boot:run"
